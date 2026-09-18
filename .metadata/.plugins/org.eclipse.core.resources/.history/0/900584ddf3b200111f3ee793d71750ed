@@ -1,0 +1,29 @@
+//Linda LaMee
+//CIS 208
+//Assignment 1
+//Professor Rodney Nelson
+
+import java.nio.file.*;
+import java.nio.file.attribute.*;
+import java.io.IOException;
+import java.util.*;
+
+public class Employee
+{
+	public static void main(String[] args)
+	{
+		String name, title, department;
+		double hourlyRate, yearsExperience, weeklyPay;
+		name = "Jordan Smith";
+		title = "Help Desk Technician";
+		department = "Information Technology";
+		hourlyRate = 24.50;
+		weeklyPay = 980.00;
+		yearsExperience = 3;
+		System.out.println(name+" is a "+title+" in the " + department + " department. ");
+		System.out.println("He makes "+ hourlyRate+ " for "+ yearsExperience+" years experience For about "+ weeklyPay+" weekly.");		
+	}
+}
+	
+
+
