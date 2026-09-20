@@ -2,7 +2,7 @@
 //CIS 208
 //Assignment 1
 //Professor Rodney Nelson
-//This program prints out information about an employee
+//This program prints out information about an employee fot github
 
 public class Employee
 {
